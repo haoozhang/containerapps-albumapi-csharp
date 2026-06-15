@@ -1,0 +1,367 @@
+{
+  "version": "1.0.0",
+  "producer": ".NET AppCAT CLI",
+  "metadata": {
+    "analysisStartTime": "2026-06-15T07:04:12.5225665Z",
+    "analysisEndTime": "2026-06-15T07:04:14.4829127Z",
+    "privacyMode": "Restricted",
+    "privacyModeHelpUrl": "https://go.microsoft.com/fwlink/?linkid=2271074",
+    "targetIds": [
+      "AppService.Windows",
+      "AppService.Linux",
+      "AKS.Linux",
+      "AKS.Windows",
+      "ACA",
+      "AppServiceContainer.Linux",
+      "AppServiceContainer.Windows",
+      "AppServiceManagedInstance.Windows"
+    ],
+    "targetDisplayNames": [
+      "Azure App Service",
+      "Azure Kubernetes Service",
+      "Azure Container Apps",
+      "Azure App Service Container",
+      "Azure App Service Managed Instance"
+    ],
+    "os": [
+      "windows",
+      "linux"
+    ]
+  },
+  "summary": {
+    "totalProjects": 1,
+    "totalIssues": 1,
+    "totalIncidents": 6,
+    "totalEffort": 6,
+    "charts": {
+      "severity": {
+        "mandatory": 0,
+        "optional": 0,
+        "potential": 6,
+        "information": 0
+      },
+      "category": {
+        "Local": 6
+      }
+    }
+  },
+  "projects": [
+    {
+      "path": "albumapi_csharp.csproj",
+      "issues": 1,
+      "storyPoints": 6,
+      "properties": {
+        "appName": "albumapi_csharp",
+        "frameworks": [
+          "net6.0"
+        ],
+        "languages": [
+          "C#"
+        ],
+        "tools": [
+          "MSBuild"
+        ]
+      },
+      "incidents": [
+        {
+          "ruleId": "Local.0006",
+          "incidentId": "0fcb244b-c0c9-4889-9473-478a8fbb02d6",
+          "location": "Program.cs",
+          "locationKind": "File",
+          "line": 44,
+          "column": 68,
+          "targets": {
+            "AppService.Windows": {
+              "severity": "potential",
+              "effort": 1
+            },
+            "AppService.Linux": {
+              "severity": "potential",
+              "effort": 1
+            },
+            "AKS.Linux": {
+              "severity": "potential",
+              "effort": 1
+            },
+            "AKS.Windows": {
+              "severity": "potential",
+              "effort": 1
+            },
+            "ACA": {
+              "severity": "potential",
+              "effort": 1
+            },
+            "AppServiceContainer.Linux": {
+              "severity": "potential",
+              "effort": 1
+            },
+            "AppServiceContainer.Windows": {
+              "severity": "potential",
+              "effort": 1
+            },
+            "AppServiceManagedInstance.Windows": {
+              "severity": "potential",
+              "effort": 1
+            }
+          },
+          "labels": []
+        },
+        {
+          "ruleId": "Local.0006",
+          "incidentId": "40bcb861-1b0a-4e9b-801b-695a9aabe297",
+          "location": "Program.cs",
+          "locationKind": "File",
+          "line": 45,
+          "column": 81,
+          "targets": {
+            "AppService.Windows": {
+              "severity": "potential",
+              "effort": 1
+            },
+            "AppService.Linux": {
+              "severity": "potential",
+              "effort": 1
+            },
+            "AKS.Linux": {
+              "severity": "potential",
+              "effort": 1
+            },
+            "AKS.Windows": {
+              "severity": "potential",
+              "effort": 1
+            },
+            "ACA": {
+              "severity": "potential",
+              "effort": 1
+            },
+            "AppServiceContainer.Linux": {
+              "severity": "potential",
+              "effort": 1
+            },
+            "AppServiceContainer.Windows": {
+              "severity": "potential",
+              "effort": 1
+            },
+            "AppServiceManagedInstance.Windows": {
+              "severity": "potential",
+              "effort": 1
+            }
+          },
+          "labels": []
+        },
+        {
+          "ruleId": "Local.0006",
+          "incidentId": "1535c0e8-3395-4bc3-8fed-f2388bbbd72e",
+          "location": "Program.cs",
+          "locationKind": "File",
+          "line": 46,
+          "column": 60,
+          "targets": {
+            "AppService.Windows": {
+              "severity": "potential",
+              "effort": 1
+            },
+            "AppService.Linux": {
+              "severity": "potential",
+              "effort": 1
+            },
+            "AKS.Linux": {
+              "severity": "potential",
+              "effort": 1
+            },
+            "AKS.Windows": {
+              "severity": "potential",
+              "effort": 1
+            },
+            "ACA": {
+              "severity": "potential",
+              "effort": 1
+            },
+            "AppServiceContainer.Linux": {
+              "severity": "potential",
+              "effort": 1
+            },
+            "AppServiceContainer.Windows": {
+              "severity": "potential",
+              "effort": 1
+            },
+            "AppServiceManagedInstance.Windows": {
+              "severity": "potential",
+              "effort": 1
+            }
+          },
+          "labels": []
+        },
+        {
+          "ruleId": "Local.0006",
+          "incidentId": "b2eeca4b-3ce0-476c-8529-f0e3de2f9cea",
+          "location": "Program.cs",
+          "locationKind": "File",
+          "line": 47,
+          "column": 65,
+          "targets": {
+            "AppService.Windows": {
+              "severity": "potential",
+              "effort": 1
+            },
+            "AppService.Linux": {
+              "severity": "potential",
+              "effort": 1
+            },
+            "AKS.Linux": {
+              "severity": "potential",
+              "effort": 1
+            },
+            "AKS.Windows": {
+              "severity": "potential",
+              "effort": 1
+            },
+            "ACA": {
+              "severity": "potential",
+              "effort": 1
+            },
+            "AppServiceContainer.Linux": {
+              "severity": "potential",
+              "effort": 1
+            },
+            "AppServiceContainer.Windows": {
+              "severity": "potential",
+              "effort": 1
+            },
+            "AppServiceManagedInstance.Windows": {
+              "severity": "potential",
+              "effort": 1
+            }
+          },
+          "labels": []
+        },
+        {
+          "ruleId": "Local.0006",
+          "incidentId": "e9b7661e-814d-4e96-9817-9e63947849f3",
+          "location": "Program.cs",
+          "locationKind": "File",
+          "line": 48,
+          "column": 72,
+          "targets": {
+            "AppService.Windows": {
+              "severity": "potential",
+              "effort": 1
+            },
+            "AppService.Linux": {
+              "severity": "potential",
+              "effort": 1
+            },
+            "AKS.Linux": {
+              "severity": "potential",
+              "effort": 1
+            },
+            "AKS.Windows": {
+              "severity": "potential",
+              "effort": 1
+            },
+            "ACA": {
+              "severity": "potential",
+              "effort": 1
+            },
+            "AppServiceContainer.Linux": {
+              "severity": "potential",
+              "effort": 1
+            },
+            "AppServiceContainer.Windows": {
+              "severity": "potential",
+              "effort": 1
+            },
+            "AppServiceManagedInstance.Windows": {
+              "severity": "potential",
+              "effort": 1
+            }
+          },
+          "labels": []
+        },
+        {
+          "ruleId": "Local.0006",
+          "incidentId": "d1dcada2-f83a-4a50-9143-144fd19af7cb",
+          "location": "Program.cs",
+          "locationKind": "File",
+          "line": 49,
+          "column": 78,
+          "targets": {
+            "AppService.Windows": {
+              "severity": "potential",
+              "effort": 1
+            },
+            "AppService.Linux": {
+              "severity": "potential",
+              "effort": 1
+            },
+            "AKS.Linux": {
+              "severity": "potential",
+              "effort": 1
+            },
+            "AKS.Windows": {
+              "severity": "potential",
+              "effort": 1
+            },
+            "ACA": {
+              "severity": "potential",
+              "effort": 1
+            },
+            "AppServiceContainer.Linux": {
+              "severity": "potential",
+              "effort": 1
+            },
+            "AppServiceContainer.Windows": {
+              "severity": "potential",
+              "effort": 1
+            },
+            "AppServiceManagedInstance.Windows": {
+              "severity": "potential",
+              "effort": 1
+            }
+          },
+          "labels": []
+        }
+      ]
+    }
+  ],
+  "rules": {
+    "Local.0006": {
+      "id": "Local.0006",
+      "description": "Your application has hardcoded URLs that might correspond to services that are not accessible on Azure.\n\nReview and ensure that the application is attempting to access URLs that would be available from Azure. You might need to migrate those services to Azure too, this way you will get the benefit of lower latency in the cloud.\n\nIf your application needs to depend on services that run on-premises, you can connect your Azure and local networks with ExpressRoute, Hybrid Connections, or VPN solutions.",
+      "title": "Hardcoded URLs detected",
+      "severity": "potential",
+      "effort": 1,
+      "links": [
+        {
+          "title": "ExpressRoute",
+          "url": "https://go.microsoft.com/fwlink/?LinkID=2250577"
+        },
+        {
+          "title": "Hybrid Connections",
+          "url": "https://go.microsoft.com/fwlink/?LinkID=2242588"
+        },
+        {
+          "title": "Connect an on-prem network",
+          "url": "https://go.microsoft.com/fwlink/?LinkID=2242591"
+        }
+      ],
+      "labels": []
+    }
+  },
+  "security": [
+    {
+      "id": "GHSA-qrmm-w75w-3wpx",
+      "title": "Server side request forgery in SwaggerUI",
+      "category": "CVE",
+      "severity": "optional",
+      "description": "[GHSA-qrmm-w75w-3wpx](https://github.com/advisories/GHSA-qrmm-w75w-3wpx): Server side request forgery in SwaggerUI\n\nSeverity: MEDIUM\n\nAffected dependencies:\n  - Swashbuckle.AspNetCore.SwaggerUI:6.2.3 (transitive, pulled by Swashbuckle.AspNetCore:6.2.3 declared at albumapi_csharp.csproj:11)\n\nVulnerable version range: < 6.3.0\n\nRecommended fix:\n  - Upgrade Swashbuckle.AspNetCore to 6.3.0 or later",
+      "evidence": {
+        "files": [
+          "albumapi_csharp.csproj:11"
+        ],
+        "explanation": "[GHSA-qrmm-w75w-3wpx](https://github.com/advisories/GHSA-qrmm-w75w-3wpx): Server side request forgery in SwaggerUI\n\nSeverity: MEDIUM\n\nAffected dependencies:\n  - Swashbuckle.AspNetCore.SwaggerUI:6.2.3 (transitive, pulled by Swashbuckle.AspNetCore:6.2.3 declared at albumapi_csharp.csproj:11)\n\nVulnerable version range: < 6.3.0\n\nRecommended fix:\n  - Upgrade Swashbuckle.AspNetCore to 6.3.0 or later"
+      },
+      "storyPoint": 1
+    }
+  ]
+}
