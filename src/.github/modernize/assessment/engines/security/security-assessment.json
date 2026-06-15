@@ -1,0 +1,26 @@
+{
+  "GeneratedAt": "2026-06-15T07:09:22.0000000Z",
+  "ProjectPath": ".",
+  "Summary": {
+    "TotalFindings": 1,
+    "CveCount": 1,
+    "CweCount": 0,
+    "BySeverity": { "mandatory": 0, "optional": 1, "potential": 0 },
+    "ByCategory": { "CVE": 1 },
+    "TotalRulesAssessed": 59,
+    "RulesPassed": 59
+  },
+  "CveFindings": [
+    {
+      "Id": "GHSA-qrmm-w75w-3wpx",
+      "Name": "Server side request forgery in SwaggerUI",
+      "Category": "CVE",
+      "Severity": "optional",
+      "StoryPoint": 1,
+      "Description": "[GHSA-qrmm-w75w-3wpx](https://github.com/advisories/GHSA-qrmm-w75w-3wpx): Server side request forgery in SwaggerUI\n\nSeverity: MEDIUM\n\nAffected dependencies:\n  - Swashbuckle.AspNetCore.SwaggerUI:6.2.3 (transitive, pulled by Swashbuckle.AspNetCore:6.2.3 declared at albumapi_csharp.csproj:11)\n\nVulnerable version range: < 6.3.0\n\nDescription: SwaggerUI supports displaying remote OpenAPI definitions through the `?url` parameter, which opens a vector for phishing attacks by abusing the trusted names/domains of self-hosted instances.\n\nRecommended fix:\n  - Upgrade Swashbuckle.AspNetCore to 6.3.0 or later (which includes Swashbuckle.AspNetCore.SwaggerUI >= 6.3.0)",
+      "Files": ["albumapi_csharp.csproj:11"],
+      "Explanation": "[GHSA-qrmm-w75w-3wpx](https://github.com/advisories/GHSA-qrmm-w75w-3wpx): Server side request forgery in SwaggerUI\n\nSeverity: MEDIUM\n\nAffected dependencies:\n  - Swashbuckle.AspNetCore.SwaggerUI:6.2.3 (transitive, pulled by Swashbuckle.AspNetCore:6.2.3 declared at albumapi_csharp.csproj:11)\n\nVulnerable version range: < 6.3.0\n\nDescription: SwaggerUI supports displaying remote OpenAPI definitions through the `?url` parameter, which opens a vector for phishing attacks by abusing the trusted names/domains of self-hosted instances.\n\nRecommended fix:\n  - Upgrade Swashbuckle.AspNetCore to 6.3.0 or later (which includes Swashbuckle.AspNetCore.SwaggerUI >= 6.3.0)"
+    }
+  ],
+  "CweFindings": []
+}
